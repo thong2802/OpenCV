@@ -4,7 +4,7 @@ camera_id = 'sample.avi'
 cap = cv2.VideoCapture(camera_id)
 #doc anh tu webcam
 while(True):
-    #doc anh
+    #doc tung fram cua video
     ret, frame = cap.read()
     #hien anh
     cv2.imshow("Anh", frame)
